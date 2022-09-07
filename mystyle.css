@@ -1,0 +1,47 @@
+body {
+    background-color: lightblue;
+}
+
+#tableA {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.round {
+    width: 100%;
+    border-radius: 15px;
+    border: 1px #000 solid;
+    padding: 5px 5px 5px 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.search {
+    position: relative;
+    width: 190px;
+    height: 30px;
+}
+
+.city {
+    position: relative;
+    font-family: Arial;
+}
+
+.select-items div {
+    background-color: black;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+}
